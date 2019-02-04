@@ -1,0 +1,87 @@
+.rootContainer {
+}
+
+.splashContainer {
+  background: url(assets/home-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+}
+
+.logoContainer {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.recipeOfDay {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  padding: 30px;
+  color: #696969;
+}
+
+.recipesContainer {
+}
+
+.recipesContainer a {
+  color: black;
+  text-decoration: none;
+}
+
+.recipeTitle {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 24px;
+}
+
+.recipeImageStyle {
+  background-size: cover;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  height: 30vh;
+  min-height: 220px;
+}
+
+.centerVertical {
+  display: flex;
+  align-items: center;
+}
+
+.centerHorizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.navHeader {
+  background-color: #333;
+}
+
+.backIcon {
+  color: white;
+}
+
+.iconButton {
+  background-color: #3d53b5 !important;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.recipeContents {
+  margin: 10px;
+}
+
+.recipeDetailsTitle {
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
