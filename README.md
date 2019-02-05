@@ -1,7 +1,16 @@
 # The Meal API recipe app
 
-This app is for the [EverlyWell coding challenge](https://github.com/EverlyWell/react-challenge).  It is written in React and has a rudimentary Node Express server.  The `Procfile` instructs Heroku to build the static assets and start the web server.
+This app is for the [EverlyWell coding challenge](https://github.com/EverlyWell/react-challenge).  It is written in React and has a rudimentary Node Express server.
 
+
+## Publishing to Heroku
+
+To avoid committing large and wasteful build files, the `heroku-postbuild` key in the package.json instructs Heroku to build the static assets on deployment.
+```
+git push heroku master
+```
+The `Procfile` contains the command that instructs Heroku to start the web server.
+[Here's a good article](http://www.latrovacommits.com/en/2017/12/14/how-publish-dist-folder-heroku/) detailing the setup.
 
 ## Available Scripts
 
